@@ -12,7 +12,7 @@ public class Tabuada {
 		Scanner imput = new Scanner(System.in);
 		int i, n;
 		
-		System.out.println("Informe o número para tabuada: ");
+		System.out.println("Informe o nÃºmero para tabuada: ");
 		n = imput.nextInt();
 		
 		FileWriter arq = new FileWriter("k:\\marcus.txt");
@@ -20,7 +20,7 @@ public class Tabuada {
 		
 		gravarArq.println("--Resultado--"); 
 		System.out.println(" ");
-
+                System.out.println("Edicao do Julio");
 		
 		for(i=1; i<=10; i++) { 
 			gravarArq.println(n + " X " + i + "  = " + (n*i));
