@@ -1,18 +1,19 @@
 package com.fluxo;
 
-import java.io.FileReader;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.io.PrintWriter;
-import java.util.Scanner;
+//import java.io.FileReader;
+//import java.io.FileWriter;
+//import java.io.IOException;
+//import java.io.PrintWriter;
+//import java.util.Scanner;
 
 public class Tabuada {
 
 	public static void main(String[] args) throws IOException {
 		Scanner imput = new Scanner(System.in);
 		int i, n;
+		// to ascessando aki
 		
-		System.out.println("Informe o número para tabuada: ");
+		System.out.println("Informe o nÃºmero para tabuada: ");
 		n = imput.nextInt();
 		
 		FileWriter arq = new FileWriter("k:\\marcus.txt");
